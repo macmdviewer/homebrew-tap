@@ -5,8 +5,8 @@ cask "macmd-viewer" do
   url "https://github.com/macmdviewer/MacMDViewer/releases/latest/download/MacMDViewer.dmg",
       verified: "github.com/macmdviewer/MacMDViewer/"
   name "MacMD Viewer"
-  desc "Native SwiftUI Markdown viewer for macOS with QuickLook and Mermaid support"
-  homepage "https://macmdviewer.com"
+  desc "Native SwiftUI Markdown viewer with QuickLook and Mermaid support"
+  homepage "https://macmdviewer.com/"
 
   depends_on macos: ">= :sonoma"
 
