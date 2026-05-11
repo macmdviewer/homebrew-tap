@@ -8,13 +8,6 @@ cask "macmd-viewer" do
   desc "Native SwiftUI Markdown viewer for macOS with QuickLook and Mermaid support"
   homepage "https://macmdviewer.com"
 
-  auto_updates true
-
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   depends_on macos: ">= :sonoma"
 
   app "MacMD Viewer.app"
